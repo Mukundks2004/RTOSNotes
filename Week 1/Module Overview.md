@@ -1,8 +1,18 @@
 # Week 1 Module Overview
 
-## What are the operating system services?
+## What are operating system services (OS Services)?
 
-## What is the standard C library, API system call on OS?
+Operating system (OS) services are functions provided by the OS to manage hardware/software resources, enabling program execution and user convenience. They bridge the gap between applications and physical hardware, offering services like process management, file manipulation, I/O operations, security, and error detection. 
+
+## What is the standard C library?
+
+The Standard C Library (libc) is a collection of user-space functions that provides an API to programmers. It abstracts low-level, OS-specific system calls, which are the actual entry points into the operating system kernel for privileged operations.
+
+The C Standard Library, specified by the ISO C standard, offers a consistent API across different OS (even though the underlying implementation may be different). Its functions reside in the user space (not the kernel) and handle tasks such as: IO, memory, string manipulation, maths, etc.
+
+Question: what is user space?
+
+Answer: user space (also known as "userland") refers to the memory area and execution mode where application software, daemons, and most user-level programs run. This is a restricted, unprivileged environment designed to protect the core operating system kernel from faults in user programs.
 
 ## What are the following processes: fork, wait, kill and exit processes?
 
