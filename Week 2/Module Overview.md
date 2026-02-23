@@ -115,3 +115,33 @@ Can happen through:
 - raw fork
 - fork and exec
 - clone (different to fork)
+
+### Termination
+
+Process termination refers to the process of ending the execution of a process, whether it finishes successfully or due to an error. The operating system must clean up the resources associated with the process and update its internal data structures.
+
+- process can be closed using `exit()`
+- process may fail or error
+- parent can send a `SIGKILL` or `SIGTERM`
+
+## What are the main concepts of IPC including the message synchronization and shared memory?
+
+What is IPC?
+
+Synchronization ensures that multiple processes or threads operate safely when sharing resources or communicating. Without proper synchronization, processes could access shared resources in unpredictable and conflicting ways, leading to race conditions, data corruption, and deadlocks.
+
+### Shared memory
+
+Shared memory is a type of inter-process communication (IPC) mechanism that allows multiple processes to access the same memory space, enabling them to read and write data directly.
+
+### Synchronization Mechanisms
+
+Synchronization ensures that multiple processes or threads operate safely when sharing resources or communicating. Without proper synchronization, processes could access shared resources in unpredictable and conflicting ways, leading to race conditions, data corruption, and deadlocks.
+
+- Semaphores
+- Mutexes
+- Monitors
+
+## What are the key points of Real-time Operating Systems for Embedded System?
+
+idk
