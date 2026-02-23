@@ -1,0 +1,10 @@
+start_to_read
+UTS University
+-0.999323 5.07845 17.0996 
+-0.551401 5.14165 15.803 
+format ascii 1.0
+comment VCGLIB generated
+element vertex 5
+property float z
+element face 0
+
