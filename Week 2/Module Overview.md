@@ -105,4 +105,13 @@ The components:
 - ready queue: list of processes that are ready and waiting for CPU time. These processes are in the ready state
 - CPU burst: time a process spends using the CPU before either being interrupted or completing its task
 
-Scheduling can either be preemptive (the OS interrupts a running process to give CPU time to another process) or non preemptive (the OS)
+Scheduling can either be preemptive (the OS interrupts a running process to give CPU time to another process) or non preemptive (the process runs until it voluntarily gives up control).
+
+### Process Creation
+
+The procedure where the operating system creates a new process.
+
+Can happen through:
+- raw fork
+- fork and exec
+- clone (different to fork)
